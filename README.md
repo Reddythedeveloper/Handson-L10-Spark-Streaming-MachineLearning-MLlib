@@ -38,7 +38,7 @@ To run the analytics pipeline, open your Codespace (or local environment) and ex
   * **Real-Time Inference:** The script ingests live ride data from the socket[cite: 3]. For each incoming ride, it uses the pre-trained model to predict the fare based on the trip's distance[cite: 3]. It then calculates the deviation between the actual fare and the predicted fare to identify potential anomalies[cite: 3].
 
 **Results:**
-![Task 4 Output][alt text](<Screenshot 2026-03-31 161412.png>)
+![Task 4 Output][alt text](<Task4.png>)
 
 -----
 
@@ -50,7 +50,7 @@ To run the analytics pipeline, open your Codespace (or local environment) and ex
   * **Real-Time Inference:** The live stream is aggregated using the same 5-minute windowing logic[cite: 3]. The same `hour_of_day` and `minute_of_hour` features are created for each window[cite: 3]. The pre-trained model is then used to predict the `avg_fare` for that time window[cite: 3].
 
 **Results:**
-![Task 5 Output][alt text](<Screenshot 2026-03-31 161430.png>)
+![Task 5 Output][alt text](<Task5.png>)
 
 ```
 ```
